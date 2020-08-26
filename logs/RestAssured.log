@@ -1,0 +1,376 @@
+2020-08-26 19:05:51 INFO  The Request Details are https://api.getpostman.com /collections POST {
+  "collection": {
+    "variables": [],
+    "info": {
+      "name": "Test Collection",
+      "description": "This is just a sample collection.",
+      "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+    },
+    "item": [
+          {
+            "name": "Sample POST Request",
+            "request": {
+              "url": "echo.getpostman.com/post",
+              "method": "POST",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json",
+                  "description": ""
+                }
+              ],
+              "body": {
+                "mode": "raw"
+              },
+              "description": "This is a sample POST Request"
+            },
+            "response": []
+          },
+          {
+            "name": "Sample GET Request",
+            "request": {
+              "url": "echo.getpostman.com/get",
+              "method": "GET",
+              "header": [],
+              "body": {
+                "mode": "formdata",
+                "formdata": []
+              },
+              "description": "This is a sample GET Request"
+            },
+            "response": []
+          }
+        ]
+      }
+  }
+
+2020-08-26 19:05:51 INFO  The Response is {"collection":{"id":"080eec5b-2a02-4f8e-af6c-a6bc02da95ba","name":"Test Collection","uid":"12490119-080eec5b-2a02-4f8e-af6c-a6bc02da95ba"}}
+2020-08-26 19:06:00 INFO  The Request Details are https://api.getpostman.com /ollections POST {
+  "collection": {
+    "variables": [],
+    "info": {
+      "name": "Test Collection",
+      "description": "This is just a sample collection.",
+      "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+    },
+    "item": [
+          {
+            "name": "Sample POST Request",
+            "request": {
+              "url": "echo.getpostman.com/post",
+              "method": "POST",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json",
+                  "description": ""
+                }
+              ],
+              "body": {
+                "mode": "raw"
+              },
+              "description": "This is a sample POST Request"
+            },
+            "response": []
+          },
+          {
+            "name": "Sample GET Request",
+            "request": {
+              "url": "echo.getpostman.com/get",
+              "method": "GET",
+              "header": [],
+              "body": {
+                "mode": "formdata",
+                "formdata": []
+              },
+              "description": "This is a sample GET Request"
+            },
+            "response": []
+          }
+        ]
+      }
+  }
+
+2020-08-26 19:06:00 INFO  The Response is {"error":{"name":"notFound","message":"Requested resource not found"}}
+2020-08-26 19:06:05 INFO  The Request Details are https://api.getpostman.com /collections POST {
+  "collection": {
+    "variables": [],
+    "info": {
+      "name": "Test Collection",
+      "description": "This is just a sample collection.",
+      "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+    },
+    "item": [
+          {
+            "name": "Sample POST Request",
+            "request": {
+              "url": "echo.getpostman.com/post",
+              "method": "POST",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json",
+                  "description": ""
+                }
+              ],
+              "body": {
+                "mode": "raw"
+              },
+              "description": "This is a sample POST Request"
+            },
+            "response": []
+          },
+          {
+            "name": "Sample GET Request",
+            "request": {
+              "url": "echo.getpostman.com/get",
+              "method": "GET",
+              "header": [],
+              "body": {
+                "mode": "formdata",
+                "formdata": []
+              },
+              "description": "This is a sample GET Request"
+            },
+            "response": []
+          }
+        ]
+      }
+  }
+
+2020-08-26 19:06:05 INFO  The Response is {"error":{"name":"AuthenticationError","message":"Invalid API Key. Every request requires a valid API Key to be sent."}}
+2020-08-26 19:06:09 INFO  The Request Details are https://api.getpostman.com /collections POST {
+  "collection": {
+    "variables": [],
+    "info": {
+      "name": "Test Collection",
+      "description": "This is just a sample collection.",
+      "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+    },
+    "tem": [
+          {
+            "name": "Sample POST Request",
+            "request": {
+              "url": "echo.getpostman.com/post",
+              "method": "POST",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json",
+                  "description": ""
+                }
+              ],
+              "body": {
+                "mode": "raw"
+              },
+              "description": "This is a sample POST Request"
+            },
+            "response": []
+          },
+          {
+            "name": "Sample GET Request",
+            "request": {
+              "url": "echo.getpostman.com/get",
+              "method": "GET",
+              "header": [],
+              "body": {
+                "mode": "formdata",
+                "formdata": []
+              },
+              "description": "This is a sample GET Request"
+            },
+            "response": []
+          }
+        ]
+      }
+  }
+
+2020-08-26 19:06:09 INFO  The Response is {"error":{"name":"malformedRequestError","message":"Found 1 errors with the supplied collection.\nshould have required property 'item'"}}
+2020-08-26 19:06:18 INFO  The Request Details are https://api.getpostman.com /collections/{collection_uid} PUT {
+  "collection": {
+    "variables": [],
+    "info": {
+      "name": "Update Collection",
+      "_postman_id": "1d3daef4-2037-4584-ab86-bafd8c8f8a55",
+      "description": "This is just a sample collection.",
+      "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Sample GET Request",
+        "request": {
+          "url": "echo.getpostman.com/get",
+          "method": "GET",
+          "header": [],
+          "body": {
+            "mode": "formdata",
+            "formdata": []
+          },
+          "description": "This is a sample GET Request"
+        },
+        "response": []
+      },
+      {
+        "name": "Sample POST Request",
+        "request": {
+          "url": "echo.getpostman.com/post",
+          "method": "POST",
+          "header": [],
+          "body": {
+            "mode": "formdata",
+            "formdata": []
+          },
+          "description": "This is the sample POST Request"
+        },
+        "response": []
+      }
+    ]
+  }
+}
+2020-08-26 19:06:18 INFO  The Response is {"collection":{"id":"f1efa16c-b2d9-4ce9-a0b5-ccd1c190b5e4","name":"Update Collection","uid":"12490119-f1efa16c-b2d9-4ce9-a0b5-ccd1c190b5e4"}}
+2020-08-26 19:06:26 INFO  The Request Details are https://api.getpostman.com /collections/{collection_uid} PUT {
+  "collection": {
+    "variables": [],
+    "info": {
+      "name": "Update Collection",
+      "_postman_id": "1d3daef4-2037-4584-ab86-bafd8c8f8a55",
+      "description": "This is just a sample collection.",
+      "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Sample GET Request",
+        "request": {
+          "url": "echo.getpostman.com/get",
+          "method": "GET",
+          "header": [],
+          "body": {
+            "mode": "formdata",
+            "formdata": []
+          },
+          "description": "This is a sample GET Request"
+        },
+        "response": []
+      },
+      {
+        "name": "Sample POST Request",
+        "request": {
+          "url": "echo.getpostman.com/post",
+          "method": "POST",
+          "header": [],
+          "body": {
+            "mode": "formdata",
+            "formdata": []
+          },
+          "description": "This is the sample POST Request"
+        },
+        "response": []
+      }
+    ]
+  }
+}
+2020-08-26 19:06:26 INFO  The Response is {"error":{"name":"instanceNotFoundError","message":"The specified item does not exist.","details":{"item":"collection","id":"123"}}}
+2020-08-26 19:06:33 INFO  The Request Details are https://api.getpostman.com /collections/{collection_uid} PUT {
+  "collection": {
+    "variables": [],
+    "info": {
+      "name": "Update Collection",
+      "_postman_id": "1d3daef4-2037-4584-ab86-bafd8c8f8a55",
+      "description": "This is just a sample collection.",
+      "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Sample GET Request",
+        "request": {
+          "url": "echo.getpostman.com/get",
+          "method": "GET",
+          "header": [],
+          "body": {
+            "mode": "formdata",
+            "formdata": []
+          },
+          "description": "This is a sample GET Request"
+        },
+        "response": []
+      },
+      {
+        "name": "Sample POST Request",
+        "request": {
+          "url": "echo.getpostman.com/post",
+          "method": "POST",
+          "header": [],
+          "body": {
+            "mode": "formdata",
+            "formdata": []
+          },
+          "description": "This is the sample POST Request"
+        },
+        "response": []
+      }
+    ]
+  }
+}
+2020-08-26 19:06:33 INFO  The Response is {"error":{"name":"AuthenticationError","message":"Invalid API Key. Every request requires a valid API Key to be sent."}}
+2020-08-26 19:06:42 INFO  The Request Details are https://api.getpostman.com /collections/{collection_uid} PUT {
+  "collection": {
+    "variables": [],
+    "info": {
+      "name": "Update Collection",
+      "_postman_id": "1d3daef4-2037-4584-ab86-bafd8c8f8a55",
+      "description": "This is just a sample collection.",
+      "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+    },
+    "tem": [
+      {
+        "name": "Sample GET Request",
+        "request": {
+          "url": "echo.getpostman.com/get",
+          "method": "GET",
+          "header": [],
+          "body": {
+            "mode": "formdata",
+            "formdata": []
+          },
+          "description": "This is a sample GET Request"
+        },
+        "response": []
+      },
+      {
+        "name": "Sample POST Request",
+        "request": {
+          "url": "echo.getpostman.com/post",
+          "method": "POST",
+          "header": [],
+          "body": {
+            "mode": "formdata",
+            "formdata": []
+          },
+          "description": "This is the sample POST Request"
+        },
+        "response": []
+      }
+    ]
+  }
+}
+2020-08-26 19:06:42 INFO  The Response is {"error":{"name":"malformedRequestError","message":"Found 1 errors with the supplied collection.\nshould have required property 'item'"}}
+2020-08-26 19:06:50 INFO  The Request Details are https://api.getpostman.com /collections/{collection_uid} GET null
+2020-08-26 19:06:50 INFO  The Response is {"collection":{"info":{"_postman_id":"6d6a947f-2ad8-4193-8eea-08db70b02b91","name":"Test UID","description":"This is just a sample collection.","schema":"https://schema.getpostman.com/json/collection/v2.1.0/collection.json"},"item":[{"name":"Sample POST Request","_postman_id":"a3709d3e-71b4-4851-a4fc-25e66b0786fa","request":{"method":"POST","header":[{"key":"Content-Type","value":"application/json"}],"body":{"mode":"raw","raw":""},"url":{"raw":"echo.getpostman.com/post","host":["echo","getpostman","com"],"path":["post"]},"description":"This is a sample POST Request"},"response":[]},{"name":"Sample GET Request","_postman_id":"caa011c3-ecac-49f6-98c2-56e5d720328d","request":{"method":"GET","header":[],"body":{"mode":"formdata","formdata":[],"options":{"formdata":{}}},"url":{"raw":"echo.getpostman.com/get","host":["echo","getpostman","com"],"path":["get"]},"description":"This is a sample GET Request"},"response":[]}]}}
+2020-08-26 19:06:59 INFO  The Request Details are https://api.getpostman.com /ollections/{collection_uid} GET null
+2020-08-26 19:06:59 INFO  The Response is {"error":{"name":"notFound","message":"Requested resource not found"}}
+2020-08-26 19:07:10 INFO  The Request Details are https://api.getpostman.com /collections/{collection_uid} GET null
+2020-08-26 19:07:10 INFO  The Response is {"error":{"name":"AuthenticationError","message":"Invalid API Key. Every request requires a valid API Key to be sent."}}
+2020-08-26 19:07:20 INFO  The Request Details are https://api.getpostman.com /collections/{collection_uid} PATCH null
+2020-08-26 19:07:20 INFO  The Response is {"error":{"name":"notFound","message":"Requested resource not found"}}
+2020-08-26 19:07:27 INFO  The Request Details are https://api.getpostman.com /collections/{collection_uid} GET null
+2020-08-26 19:07:27 INFO  The Response is {"error":{"name":"instanceNotFoundError","message":"We could not find the collection you are looking for"}}
+2020-08-26 19:07:35 INFO  The Request Details are https://api.getpostman.com /collections/{collection_uid} DELETE null
+2020-08-26 19:07:35 INFO  The Response is {"collection":{"id":"c1c0f977-c36c-4aa5-b205-9ceadc772405","uid":"12490119-c1c0f977-c36c-4aa5-b205-9ceadc772405"}}
+2020-08-26 19:07:43 INFO  The Request Details are https://api.getpostman.com /ollections/{collection_uid} DELETE null
+2020-08-26 19:07:43 INFO  The Response is {"error":{"name":"notFound","message":"Requested resource not found"}}
+2020-08-26 19:07:55 INFO  The Request Details are https://api.getpostman.com /collections/{collection_uid} DELETE null
+2020-08-26 19:07:55 INFO  The Response is {"error":{"name":"AuthenticationError","message":"Invalid API Key. Every request requires a valid API Key to be sent."}}
+2020-08-26 19:08:06 INFO  The Request Details are https://api.getpostman.com /collections/{collection_uid} PATCH null
+2020-08-26 19:08:06 INFO  The Response is {"error":{"name":"notFound","message":"Requested resource not found"}}
+2020-08-26 19:08:14 INFO  The Request Details are https://api.getpostman.com /collections/{collection_uid} DELETE null
+2020-08-26 19:08:14 INFO  The Response is {"error":{"name":"instanceNotFoundError","message":"The specified item does not exist.","details":{"item":"collection","id":"123"}}}

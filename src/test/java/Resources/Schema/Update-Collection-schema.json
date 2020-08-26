@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "default": {},
+  "required": [
+    "collection"
+  ],
+  "properties": {
+    "collection": {
+      "$id": "#/properties/collection",
+      "type": "object",
+      "title": "The collection schema",
+      "default": {},
+      "required": [
+        "id",
+        "name",
+        "uid"
+      ],
+      "properties": {
+        "id": {
+          "$id": "#/properties/collection/properties/id",
+          "type": "string",
+          "title": "The id schema",
+          "default": ""
+        },
+        "name": {
+          "$id": "#/properties/collection/properties/name",
+          "type": "string",
+          "title": "The name schema",
+          "default": ""
+        },
+        "uid": {
+          "$id": "#/properties/collection/properties/uid",
+          "type": "string",
+          "title": "The uid schema",
+          "default": ""
+        }
+      }
+    }
+  }
+}
